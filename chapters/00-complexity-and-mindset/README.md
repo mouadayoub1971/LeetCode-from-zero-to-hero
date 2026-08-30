@@ -1,5 +1,4 @@
 # Chapter 00 — Complexity & Problem-Solving Mindset
-
 > Master this before grinding problems. Speed without structure = wasted months.
 
 ## Notion
