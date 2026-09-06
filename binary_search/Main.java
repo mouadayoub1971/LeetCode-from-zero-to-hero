@@ -1,17 +1,15 @@
-import java.util.Arrays;
 public class Main{
   public static void main (String[] args){
-    int array[] = new int[100];
+    int array[] = {1, 3, 5, 8, 13, 21, 34, 42, 55, 89};
     int target = 42;
-    int index;
     int size = array.length;
     int left = 0;
     int right = size - 1;
-    index = binarySearch(target, array, left, right);
-
-
+    int index = binarySearch(target, array, left, right);
+    System.out.println(index);
+    System.out.println("if the answer is write you have the number if false it be -1");
   }
-  public int binarySearch(int target ,int[] array ,int left, int right){
+  public static int binarySearch(int target ,int[] array ,int left, int right){
     while(left <= right){
       int middle = (left + right)/2;
       if (target < array[middle]){
